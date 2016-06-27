@@ -1,9 +1,10 @@
 import React from 'react';
+import Boards from '../components/Boards';
 
 const App = ({ children }) => (
   <div>
-    Hello World
-    { children }
+  	<h3 className="center" >Personel Budget</h3>
+  	< Boards />
   </div>
 )
 
